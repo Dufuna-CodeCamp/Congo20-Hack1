@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>submission-page</title>
+</head>
+<body>
+    <img src="images/logo.jpg" width="500" height="200"/>
+    <form action="#" method="post" enctype="multipart/form-data">
+    <h2>News Submission Form</h2>
+    <fieldset>
+        <legend>'*' fields are mandatory</legend>
+        <label for="name">*Name: </label><br>
+        <Input type="text" name="name" id="name" size="50" required/><br><br>
+        <label for="email">Email</label><br>
+        <input type="email" name="email" id="email" size="50"/><br><br>
+        <label for="title">*Title of Submission</label><br>
+        <input type="text" name="title" id="title" size="50" required/><br><br>
+        <label for="news">*News Details</label><br>
+        <textarea name="news" id="news" rows="30" cols="50" required></textarea><br><br>
+        <label><b>Upload Images</b></label><br><br>
+        <label for="image1">Image 1:</label>
+        <input type="file" name="image" id="image1"/><br><br>
+        <label for="image2">Image 2:</label>
+        <input type="file" name="image" id="image2"/><br><br>
+        <label for="image3">Image 3:</label>
+        <input type="file" name="image" id="image3"/><br><br>
+        <button type="submit" name="submit" value="submit">Submit</button>
+    </fieldset>
+    </form>
+</body>
+</html>
